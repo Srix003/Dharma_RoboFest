@@ -1,5 +1,5 @@
 # DHARMA BOT
-![alt text](icons/dog.gif)
+![alt text](icons/dog_g.gif)
 
 
 # DHARMA BOT
@@ -25,8 +25,6 @@ Dharma Bot is composed of three primary, electronically independent subsystems:
 
 ## Subsystems
 
-![alt text](icons/watch.jpeg)
-
 ### Smartwatch
 The smartwatch incorporates:
 - **ESP-32 WROOM microcontroller**
@@ -38,7 +36,9 @@ The smartwatch incorporates:
 - **FailSafe Mechanism**: Notifies the remote of the current location upon triggering specific emergency conditions.
 - **ESP-NOW Communication**: Provides secure data exchange between the smartwatch and the smart remote.
 
-![alt text](icons/remote.jpeg)
+
+
+![alt text](icons/watch.jpeg)
 
 ### Smart Remote
 Serving as the primary control hub, the smart remote includes:
@@ -49,7 +49,7 @@ Serving as the primary control hub, the smart remote includes:
 - **Manual Controls**: Joysticks, potentiometers, and switches for bot locomotion and firing systems.
 - **GUI**: The remote’s GUI interface provides a user-friendly experience, offering control over various modes, video feeds, and sensor data
 
-![alt text](icons/dog_2.PNG)
+![alt text](icons/remote.jpeg)
 
 ### PoC Bot 
 The main bot integrates:
@@ -59,5 +59,7 @@ The main bot integrates:
 - **ESP-32 S3 Camera System**: A esp camera system for live video feed.
 - **LIDAR and GPS Modules**: For navigation and environmental awareness.
 - **Communication**:  Local esp aceess network and long-range LoRa for data exchange between subsystems.
+
+![alt text](icons/dog_4.PNG)
 
 --
