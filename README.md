@@ -1,5 +1,5 @@
 # DHARMA BOT
-![alt text](icons/dog_4.gif)
+![alt text](icons/dog_5.gif)
 
 
 # DHARMA BOT
