@@ -63,7 +63,10 @@ The main bot integrates:
 ![alt text](icons/dog_4.PNG)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 --
 =======
 --
 >>>>>>> dc316c3172275b5749ceb74439bb2448be21f5de
+=======
+>>>>>>> 03d3878bbe8738411900cf3edbacc4d22934f1f2
