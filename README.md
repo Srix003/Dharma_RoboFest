@@ -62,4 +62,3 @@ The main bot integrates:
 
 ![alt text](icons/dog_4.PNG)
 
---
