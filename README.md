@@ -1,6 +1,5 @@
 # DHARMA BOT
-![alt text](dog.gif)
-
+![alt text](icons/dog.gif)
 
 
 # DHARMA BOT
@@ -26,18 +25,20 @@ Dharma Bot is composed of three primary, electronically independent subsystems:
 
 ## Subsystems
 
+![alt text](icons/watch.jpeg)
+
 ### Smartwatch
 The smartwatch incorporates:
 - **ESP-32 WROOM microcontroller**
 - **OLED screen**: Displays real-time status, bot location, connectivity, and enemy detection data.
 - **Pulse-meter sensor** and **GPS**: For monitoring the wearer's health and position.
-  
-Key features include:
 - **Physical buttons**: For emergency mode switching if the touchscreen is unresponsive.
 - **Geotagging**: Logs location of deployed tags for tracking.
 - **Heartbeat Monitoring**: In "Military Mode," it locks if the wearer’s pulse reads zero for over 30 seconds.
 - **FailSafe Mechanism**: Notifies the remote of the current location upon triggering specific emergency conditions.
 - **ESP-NOW Communication**: Provides secure data exchange between the smartwatch and the smart remote.
+
+![alt text](icons/remote.jpeg)
 
 ### Smart Remote
 Serving as the primary control hub, the smart remote includes:
@@ -47,7 +48,9 @@ Serving as the primary control hub, the smart remote includes:
 - **Video Streaming**: ESP-32 S3 CAM streaming for real-time surveillance.
 - **Manual Controls**: Joysticks, potentiometers, and switches for bot locomotion and firing systems.
 - **GUI**: The remote’s GUI interface provides a user-friendly experience, offering control over various modes, video feeds, and sensor data
-  
+
+![alt text](icons/dog_2.PNG)
+
 ### PoC Bot 
 The main bot integrates:
 - **Teensy 4.1 Microcontroller**: Manages core functions, including servo control and scheduling of Tasks
