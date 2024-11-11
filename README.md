@@ -57,7 +57,7 @@ The turrent has:
 - **ESP 32**: Controls the Servo motors
 
 ## Installation
-![arduino](icons/arduino.png)
+
 ### Ubuntu-linux64
 
 Update Packages
