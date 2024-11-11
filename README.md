@@ -1,5 +1,5 @@
 # DHARMA BOT
-![alt text](icons/dog_g.gif)
+![alt text](icons/dog_4.gif)
 
 
 # DHARMA BOT
@@ -61,12 +61,3 @@ The main bot integrates:
 - **Communication**:  Local esp aceess network and long-range LoRa for data exchange between subsystems.
 
 ![alt text](icons/dog_4.PNG)
-
-<<<<<<< HEAD
-<<<<<<< HEAD
---
-=======
---
->>>>>>> dc316c3172275b5749ceb74439bb2448be21f5de
-=======
->>>>>>> 03d3878bbe8738411900cf3edbacc4d22934f1f2
