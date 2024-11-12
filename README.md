@@ -1,19 +1,19 @@
-# DHARMA BOT :dog2:
+# DHARMA BOT :dog2: | :robot:
 ![display_image](icons/dog.gif)
 
 Dharma Bot is a sophisticated quadruped robotic dog featuring 12 degrees of freedom (DOF) for dynamic motion. The system includes a custom-designed remote control and smartwatch, which collectively offer seamless user interaction, control, and monitoring capabilities.
 
-## Authors
+## Authors :writing_hand:
 
 - [@mr-spaw](https://github.com/mr-spaw)
 - [@LordCretivo](https://github.com/LordCretivo)
 - [@DeepseaBandit](https://github.com/DeepseaBandit)
 
-## Documentation
+## Documentation :notebook_with_decorative_cover:
 
 [Documentation](https://docs.google.com/document/d/14A3U6bSW9qBQt6sxEBGoiQTC8-wSntHT5azrs7TC3jw/edit?usp=sharing)
 
-## System Overview
+## System Overview 
 Dharma Bot is composed of three primary, electronically independent subsystems:
 1. **The Bot**: The robotic dog, with core control and motion capabilities.
 2. **Smart Remote**: The main control interface for the bot, featuring a Raspberry Pi, touchscreen, and long-range communication.
