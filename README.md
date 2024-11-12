@@ -1,13 +1,13 @@
-# DHARMA BOT :dog2: | :robot:
+# DHARMA BOT :dog2::robot:
 ![display_image](icons/dog.gif)
 
 Dharma Bot is a sophisticated quadruped robotic dog featuring 12 degrees of freedom (DOF) for dynamic motion. The system includes a custom-designed remote control and smartwatch, which collectively offer seamless user interaction, control, and monitoring capabilities.
 
 ## Authors :writing_hand:
 
-- [@mr-spaw](https://github.com/mr-spaw)
-- [@LordCretivo](https://github.com/LordCretivo)
-- [@DeepseaBandit](https://github.com/DeepseaBandit)
+- [@mr-spaw](https://github.com/mr-spaw) :space_invader:
+- [@LordCretivo](https://github.com/LordCretivo) :teddy_bear:
+- [@DeepseaBandit](https://github.com/DeepseaBandit) :merman:
 
 ## Documentation :notebook_with_decorative_cover:
 
@@ -22,7 +22,7 @@ Dharma Bot is composed of three primary, electronically independent subsystems:
 
 ## Subsystems
 
-### Smartwatch
+### Smartwatch :watch:
 The smartwatch incorporates:
 - **ESP-32 WROOM microcontroller**:The SoC of the embedded hardware.
 - **OLED screen**: Displays real-time status, bot location, connectivity, and enemy detection data.
@@ -33,7 +33,7 @@ The smartwatch incorporates:
 - **ESP-NOW Communication**: Provides secure data exchange between the smartwatch and the smart remote.
 
 
-### Smart Remote
+### Smart Remote :joystick:
 Serving as the primary control hub, the smart remote includes:
 - **Raspberry Pi and 7-inch HDMI Touchscreen**: For intuitive control of the whole system architecture.
 - **LoRa and ESP-NOW Modules**: Enabling long-range communication up to 10 km in LoRA and about five meters of communication with ESP-NOW protocol
@@ -42,7 +42,7 @@ Serving as the primary control hub, the smart remote includes:
 - **Manual Controls**: Joysticks, potentiometers, and switches for bot locomotion and firing systems.
 - **GUI**: The remote’s GUI interface provides a user-friendly experience, offering control over various modes, video feeds, and sensor data
 
-### PoC Bot 
+### PoC Bot :dog2:
 The main bot integrates:
 - **Teensy 4.1 Microcontroller**: Manages core functions, including servo control and scheduling of Tasks
 - **ESP 32 S3 Development Board**: Controlling the Peripheral Electronics like GPS, ToF Sensors and Gyroscopic Readngs.
@@ -51,12 +51,12 @@ The main bot integrates:
 - **LIDAR and GPS Modules**: For navigation and environmental awareness.
 - **Communication**:  Local esp aceess network and long-range LoRa for data exchange between subsystems.
 
-### Turret System
+### Turret System :gun:
 The turrent has:
 - **Raspberry Pi**: Runs a local ML image recognition model and manages peripheral hardware.
 - **ESP 32**: Controls the Servo motors
 
-## Installation
+## Installation :computer:
 
 ### Ubuntu-linux64
 
@@ -112,10 +112,10 @@ Download ESP and Raspberry Pi Pico Board libraries
 ## 
 ![software_used](icons/softwares.png)
 
-## Project Context
+## Project Context :star: :india:
 This project was developed as part of RoboFest, held in 2024, organised by Gujarat Council on Science and Technology(GUJCOST).
 
-## Social Media
+## Social Media :star2:
 [Website](https://krs.kiit.ac.in)
 [Instagram](https://www.instagram.com/kiit_robotics.society?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==)
 [Linkedin](https://www.linkedin.com/company/kiit-robotics-society-bbsr/mycompany/)
