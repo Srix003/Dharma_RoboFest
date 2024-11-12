@@ -56,7 +56,7 @@ The turrent has:
 - **Raspberry Pi**: Runs a local ML image recognition model and manages peripheral hardware.
 - **ESP 32**: Controls the Servo motors
 
-## Installation :computer:
+## Installation-Arduino IDE :computer:
 
 ### Ubuntu-linux64
 
