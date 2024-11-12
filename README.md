@@ -13,7 +13,7 @@ Dharma Bot is a sophisticated quadruped robotic dog featuring 12 degrees of free
 
 [Documentation](https://docs.google.com/document/d/14A3U6bSW9qBQt6sxEBGoiQTC8-wSntHT5azrs7TC3jw/edit?usp=sharing)
 
-## System Overview 
+## System Overview :joystick: 
 Dharma Bot is composed of three primary, electronically independent subsystems:
 1. **The Bot**: The robotic dog, with core control and motion capabilities.
 2. **Smart Remote**: The main control interface for the bot, featuring a Raspberry Pi, touchscreen, and long-range communication.
@@ -33,7 +33,7 @@ The smartwatch incorporates:
 - **ESP-NOW Communication**: Provides secure data exchange between the smartwatch and the smart remote.
 
 
-### Smart Remote :joystick:
+### Smart Remote :video_game:
 Serving as the primary control hub, the smart remote includes:
 - **Raspberry Pi and 7-inch HDMI Touchscreen**: For intuitive control of the whole system architecture.
 - **LoRa and ESP-NOW Modules**: Enabling long-range communication up to 10 km in LoRA and about five meters of communication with ESP-NOW protocol
