@@ -34,9 +34,9 @@ ESP-NOW for wireless data transmission
 
 4. **OLED 0.96inch Display**: To dislplay the GUI of the watch
 
-## RTOS Task Scheduling
+## RTOS Task Scheduling  :grey_exclamation:
 
-### Task Breakdown :grey_exclamation:
+### Task Breakdown
 
 1. **Hardware Interrupts**: Handles button presses for user interaction.
 
