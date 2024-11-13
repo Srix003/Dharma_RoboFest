@@ -1,12 +1,12 @@
-# UTILITY WATCH 
+# UTILITY WATCH :watch:
 
 ![display_image](icons_watch/watch_1.jpeg)
 
-## Overview
+## Overview :eye_speech_bubble:
 
 The Utility Watch is an embedded device designed to monitor health and environmental parameters using sensors. It includes features like heart rate monitoring, GPS tracking, and motion detection, with wireless data transmission through ESP-NOW. The watch has an OLED display for real-time data visualization and user interaction via buttons. In failsafe mode, if no motion or heart rate is detected, the watch disables user controls and only transmits essential data: heart rate and GPS location.
 
-## Key Features
+## Key Features :speech_balloon:
 
 1. **Heart Rate Monitoring**: Utilizes the MAX30102 sensor to measure heart rate and SpO2 levels.
 
@@ -19,7 +19,7 @@ Users can navigate through different modes using buttons (up, down, select, and 
 
 5. **Failsafe Mode**: Activates when no motion or heart rate is detected. In this mode, the watch deactivates non-essential functions, rendering the buttons inactive. Only critical data, such as heart rate vitals and GPS location, is transmitted wirelessly.
 
-## Components
+## Components :play_or_pause_button:
 **Microcontroller**: SEEDSTUDIO ESP32 S3
 
 ### Communication
@@ -36,7 +36,7 @@ ESP-NOW for wireless data transmission
 
 ## RTOS Task Scheduling
 
-### Task Breakdown
+### Task Breakdown :grey_exclamation:
 
 1. **Hardware Interrupts**: Handles button presses for user interaction.
 
@@ -70,7 +70,7 @@ TinyGPS.h
 MAX30105.h
 heartRate.h
 ```
-## Pin Configuration
+## Pin Configuration :part_alternation_mark:
 
 The Smart Utility Watch utilizes various sensors and components, each connected to specific pins on the ESP32 microcontroller. Below is the detailed pin configuration for each component:
 
@@ -126,7 +126,7 @@ ADC: Connect to Digital Pin D1
 2. The power supply should be stable 3.3V to the ESP32 and provide sufficient current for all connected devices.
 3. Decoupling Capacitor is necessary for the button to ensure reliable operation.
 
-## GUI
+## GUI :open_file_folder:
 The smartwatch begins by detecting the wrist; if no wrist is detected, it will not proceed. Once detected, it starts collecting data, and when the heartbeat exceeds 30 BPM, it transitions to the main interface. The most recent GPS, MPU, and heart rate data are stored in a linked list with the newest entry at the top and the oldest at the bottom.
 
 The main interface has four sections. 
